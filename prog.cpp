@@ -10,14 +10,14 @@ int main()
 	{
 		for (j = 0; j < m; j++)
 		{
-
+			printf("\n x[%d][%d] =", i, j);
 		}
 	}
 	for (i = 0; i < n; i++)
 	{
 		for (j = 0; j < m; j++)
 		{
-
+			printf("\n x[%d][%d] =", i, j);
 		}
 	}
 }
