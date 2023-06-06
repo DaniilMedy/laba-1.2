@@ -11,6 +11,7 @@ int main()
 		for (j = 0; j < m; j++)
 		{
 			printf("\n x[%d][%d] =", i, j);
+			scanf_s("%f", &x[i][j]);
 		}
 	}
 	for (i = 0; i < n; i++)
@@ -18,6 +19,7 @@ int main()
 		for (j = 0; j < m; j++)
 		{
 			printf("\n x[%d][%d] =", i, j);
+			scanf_s("%f\r", x[i][j]);
 		}
 	}
 }
